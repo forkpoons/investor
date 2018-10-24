@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ваш инвестор</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- header -->
+    <div class="container-fluid head">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col logo">
+                    <img src="img/logo.png">
+                    <div class="uppercase">Ваш инвестор</div>
+                </div>
+                <div class="col tel d-flex justify-content-end">
+                    <img src="img/icon-tel.png" class="">
+                    <div class="uppercase d-inline">+7 983 232 60 06</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div class="container-fluid hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-lg-7 col-xl-8 color-white hero-text">
+                    <div class="text-h1">Заем денег с вашинвестор.рф — быстро и легко</div>
+                    <div class="text-h3">Заполните заявку и получите<br> деньги уже сегодня</div>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <div class="col hero-form">
+                        <div class="text-h3">Заполните заявку</div>
+                        <form id="hero">
+                            <input type="text" placeholder="Имя" class="form-control btn-h mt-30" name="name" form="hero">
+                            <input type="tel" placeholder="Телефон" class="form-control btn-h mt-30" name="phone" form="hero">
+                            <div class="custom-control custom-checkbox mt-4 text-left  mt-30">
+                                <input type="checkbox" class="custom-control-input" id="Check1" name="check">
+                                <label class="custom-control-label" for="Check1" style="font-size: 12px;">
+                                    Даю согласие на обработку данных
+                                </label>
+                            </div>
+                            <input type="submit" class="btn btn-green mt-30 w-100" value="Отправить заявку" style="padding:15px 0" onclick="return Formdata(this.form);">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Выдаем займы быстро -->
+    <div class="container-fluid">
+        <div class="container py-120 text-center">
+            <div class="text-h2">Выдаем займы быстро</div>
+            <div class="text-h3">3 простых шага для получения денег</div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-3 mt-60">
+                    <img src="img/icon1.png" class="image">
+                    <div class="text-h3 mt-30">Заполните заявку</div>
+                </div>
+                <div class="col">
+                    <img src="img/arrow.png" style="margin-top:130px" class="image-a">
+                </div>
+                <div class="col-12 col-md-3 mt-60">
+                    <img src="img/icon2.png" class="image">
+                    <div class="text-h3 mt-30">Дождитесь<br>одобрения заявки</div>
+                </div>
+                <div class="col">
+                    <img src="img/arrow.png" style="margin-top:130px"class="image-a">
+                </div>
+                <div class="col-12 col-md-3 mt-60">
+                    <img src="img/icon3.png" class="image">
+                    <div class="text-h3 mt-30">Получите деньги</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- С нами выгодно -->
+    <div class="container-fluid hero2">
+        <div class="container py-120 text-center">
+            <div class="text-h2 color-white">С нами выгодно</div>
+            <div class="text-h3 color-white">Заем денег без лишних формальностей</div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md text-center hero2-card mt-60">
+                    <div class="text-h3 mb-30">С любой кредитной историей</div>
+                    <img src="img/icon4.png" style="height: 110px">
+                    <div class="text-h4 mt-30">Получите деньги вне зависисти от вашей кредитной истории</div>
+                </div>
+                <div class="col-12 col-md text-center hero2-card mt-60">
+                    <div class="text-h3 mb-30">Без справок и поручителей</div>
+                    <img src="img/icon5.png" style="height: 110px">
+                    <div class="text-h4 mt-30">Минимум документов для заключения договора</div>
+                </div>
+                <div class="col-12 col-md text-center hero2-card mt-60">
+                    <div class="text-h3 mb-30">Без скрытых платежей</div>
+                    <img src="img/icon6.png" style="height: 110px">
+                    <div class="text-h4 mt-30">Прозрачные условия получения займа</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- С нами выгодно -->
+    <div class="container-fluid">
+        <div class="container py-120 text-center">
+            <div class="text-h2">Наши услуги</div>
+            <div class="text-h3">Выдаем займы под залог недвижимости и автомобиля</div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-9 col-lg-4 text-center mt-60">
+                    <img src="img/card1.png" class="w-100">
+                    <div class="text-h3 mb-30 card-title">С любой кредитной историей</div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-4 text-center mt-60">
+                    <img src="img/card2.png" class="w-100">
+                    <div class="text-h3 mb-30 card-title">Без справок и поручителей</div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-4 text-center mt-60">
+                    <img src="img/card3.png" class="w-100">
+                    <div class="text-h3 mb-30 card-title">Без скрытых платежей</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Оформите заем прямо сейчас -->
+    <div class="container-fluid hero3 text-center py-120">
+        <div class="text-h2 color-white">Оформите заем прямо сейчас</div>
+        <form class="bottom-form" id="form2">
+            <div class="text-h3">Заполните заявку</div>
+            <input type="text" placeholder="Имя" class="form-control btn-h mt-30" name="name" form="form2">
+            <input type="tel" placeholder="Телефон" class="form-control btn-h mt-30" name="phone" form="form2">
+            <select class="form-control btn-h  mt-30" name="select">
+                <option disabled selected value="0">Вид залога</option>
+                <option value="1">Автомобиль</option>
+                <option value="2">ПТС</option>
+                <option value="3">Недвижимость</option>
+            </select>
+            <input type="number" placeholder="Сумма займа" class="form-control btn-h mt-30" name="number" form="form2">
+            <div class="custom-control custom-checkbox mt-4 text-left  mt-30">
+                <input type="checkbox" class="custom-control-input" id="Check2" name="check" form="form2">
+                <label class="custom-control-label" for="Check2" style="font-size: 12px;">
+                    Даю согласие на обработку данных
+                </label>
+            </div>
+            <input type="submit" class="btn btn-green mt-30 w-100" value="Отправить заявку" style="padding:15px 0" form="form2" onclick="return Formdata2(this.form)">
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid footer py-60">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col">
+                    <div class="text-h4 color-white">© 2018 Выдача займов «Ваш инвестор»</div>
+                    <div class="text-h4 mt-30"><a href="#" class="color-white">Политика обработки персональных данных</a></div>
+                </div>
+                <div class="col justify-content-end text-right">
+                    <div class="text-h4 color-white">+7 983 232 60 06</div>
+                    <div class="text-h4 mt-30"><a href="#" class="color-white">info@вашинвестор.ru</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        /**
+         * @return {boolean}
+         */
+        function Formdata(data){
+            /* если не заполнено поле Ваше имя, длина менее 3-x*/
+            if (data.name != null && data.name.value.length < 3 )
+            {
+                alert('Заполните поле «Ваше имя»');
+                return false;}
+            /* контактный телефон */
+            if(data.phone != null && data.phone.value.length == 0)
+            {
+                alert('поле «Контактный телефон» пустое');
+                return false;}
+
+            if(data.phone != null && data.phone.value.length < 5)
+            {
+                alert('поле «Контактный телефон» должно содержать минимум пять символов');
+                return false;}
+
+            if(!(/^[0-9-+()s]+z/.test(data.phone.value+'z')))
+            {
+                alert('«Контактный телефон» указан неверно');
+                return false;}
+            if(!data.check.checked){
+                alert('Необходимо согласие на обработку персональных данных');
+                return false;
+            }
+        }
+        function Formdata2(data){
+            /* если не заполнено поле Ваше имя, длина менее 3-x*/
+            if (data.name != null && data.name.value.length < 3 )
+            {
+                alert('Заполните поле «Ваше имя»');
+                return false;}
+            /* контактный телефон */
+            if(data.phone != null && data.phone.value.length == 0)
+            {
+                alert('поле «Контактный телефон» пустое');
+                return false;}
+
+            if(data.phone != null && data.phone.value.length < 5)
+            {
+                alert('поле «Контактный телефон» должно содержать минимум пять символов');
+                return false;}
+
+            if(!(/^[0-9-+()s]+z/.test(data.phone.value+'z')))
+            {
+                alert('«Контактный телефон» указан неверно');
+                return false;}
+            if (data.select.value < 1)
+            {
+                alert("Выверите вид залога");
+                return false;}
+            if (data.number != null && data.number.value.length < 2 )
+            {
+                alert('Введите сумму займа');
+                return false;}
+            if(!data.check.checked){
+                alert('Необходимо согласие на обработку персональных данных');
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

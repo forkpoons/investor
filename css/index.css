@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&subset=cyrillic');
+
+body{
+    font-family: "Roboto";
+}
+.text-h1{
+    font-family: "Roboto Condensed";
+    font-size: 54px;
+}
+.text-h2{
+    font-family: "Roboto Condensed";
+    font-size: 48px;
+}
+.text-h3{
+    font-family: "Roboto";
+    font-size: 24px;;
+}
+.text-h4{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.color-white{
+    color:white;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.my-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pt-120{
+    padding-top: 120px;
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.py-120{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.py-60{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+input{
+    font-family: "Roboto";
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: rgba(67, 100, 134, 0);
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.25);
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    background-color: #099920;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.1rem rgba(11, 120, 25, 0.61);
+}
+
+.custom-control-input:active ~ .custom-control-label::before {
+    color: #fff;
+    background-color: rgba(9, 210, 41, 0.62);
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #099920;
+}
+.head{
+    background: #FC9700;
+    height: 80px;
+}
+.logo{
+    font-size: 20px;
+
+}
+.logo img{
+    display: inline-flex;
+    margin-top:-13px;
+}
+.logo div{
+    display: inline-flex;
+    margin-top:34px;
+    margin-left:-19px;
+    font-family: "Roboto Condensed";
+}
+.tel{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.tel img{
+    width:30px;
+    height: 30px;
+}
+
+.hero{
+    background: url("../img/hero.png");
+    min-height: 800px;
+
+}
+.hero-text{
+    margin-top:200px
+}
+.hero-text .text-h1{
+    line-height: normal;
+}
+.hero-form{
+    background: white;
+    width: 360px;
+    padding: 60px;
+    border-radius: 30px;
+    margin:150px auto 60px;
+}
+.btn-h{
+    height: 50px;
+}
+.btn-green{
+    background: #099920;
+    color:white;
+}
+.btn-green:hover {
+    background: #095d18;
+}
+.hero2{
+    background: url("../img/hero2.png");
+    background-size: cover;
+}
+.hero2-card{
+    padding: 60px 50px;
+    background: white;
+    border-radius: 30px 0 0 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.card-title{
+    background: #FC9700;
+    padding: 15px 50px;
+}
+.hero3{
+    background: url("../img/hero3.png");
+    background-size: cover;
+}
+.bottom-form{
+    max-width: 460px;
+    padding: 60px 75px;
+    margin: 60px auto 0;
+    background: white;
+    border-radius: 30px;
+}
+
+.footer{
+    background: black;
+}
+@media (max-width: 1200px) {
+    .card-title{
+        min-height: 140px;
+    }
+}
+@media (max-width: 1000px) {
+    .hero-text .text-h1{
+        font-size:42px;
+    }
+    .image{
+        width: 130px;
+    }
+    .image-a{
+        width: 50px;
+    }
+    .card-title{
+        min-height: 66px;
+    }
+}
+@media (max-width: 767px) {
+    .image-a{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo{
+        font-size: 16px;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .logo div{
+        display: inline-flex;
+        margin-top:30px;
+        margin-left:-14px;
+        font-family: "Roboto Condensed";
+    }
+    .tel{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .tel img{
+        display: none;
+    }
+}
+@media (max-width: 364px) {
+
+    .logo{
+        font-size: 12px;
+    }
+    .tel{
+        font-size: 12px;}
+}
