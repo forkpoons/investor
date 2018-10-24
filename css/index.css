@@ -153,6 +153,7 @@ input{
 .card-title{
     background: #FC9700;
     padding: 15px 50px;
+    min-height: 102px;
 }
 .hero3{
     background: url("../img/hero3.png");
