@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&subset=cyrillic');
 
 body{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 .text-h1{
-    font-family: "Roboto Condensed";
-    font-size: 54px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 64px;
 }
 .text-h2{
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 48px;
 }
 .text-h3{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 24px;;
 }
 .text-h4{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
 .uppercase{
@@ -59,7 +59,7 @@ body{
     padding-bottom: 60px;
 }
 input{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 .form-control:focus {
     color: #495057;
@@ -89,21 +89,14 @@ input{
     height: 80px;
 }
 .logo{
-    font-size: 20px;
-
-}
-.logo img{
+    font-size: 22px;
+    font-family: "Roboto Condensed", sans-serif;
     display: inline-flex;
-    margin-top:-13px;
-}
-.logo div{
-    display: inline-flex;
-    margin-top:34px;
-    margin-left:-19px;
-    font-family: "Roboto Condensed";
+    margin-top:30px;
 }
 .tel{
     font-size: 22px;
+    font-family: "Roboto Condensed", sans-serif;
     margin-top: 30px;
 }
 .tel img{
@@ -114,7 +107,7 @@ input{
 .hero{
     background: url("../img/hero.png");
     min-height: 800px;
-
+    background-size: cover;
 }
 .hero-text{
     margin-top:200px
@@ -128,6 +121,9 @@ input{
     padding: 60px;
     border-radius: 30px;
     margin:150px auto 60px;
+}
+.hero-form .text-h3{
+    text-align: center;
 }
 .btn-h{
     height: 50px;
@@ -174,8 +170,14 @@ input{
     .card-title{
         min-height: 140px;
     }
+    .dnone{
+        display: none
+    }
+    .hero2 .text-h3{
+        font-size: 20px;
+    }
 }
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .hero-text .text-h1{
         font-size:42px;
     }
@@ -188,25 +190,35 @@ input{
     .card-title{
         min-height: 66px;
     }
+    .hero2 .text-h3{
+        font-size: 24px;
+    }
+    .hero{
+        text-align: center;
+    }
 }
 @media (max-width: 767px) {
     .image-a{
         display: none;
     }
+    .hero-text{
+        margin-top: 50px;
+    }
+    .hero-form{
+        margin-top: 50px;
+    }
+
 }
 
+@media (max-width: 576px) {
+    .footer .text-right{
+        text-align: left !important;
+        margin-top: 30px;
+    }
+}
 @media (max-width: 500px) {
     .logo{
         font-size: 16px;
-    }
-    .logo img{
-        width: 40px;
-    }
-    .logo div{
-        display: inline-flex;
-        margin-top:30px;
-        margin-left:-14px;
-        font-family: "Roboto Condensed";
     }
     .tel{
         font-size: 16px;
@@ -215,12 +227,8 @@ input{
     .tel img{
         display: none;
     }
-}
-@media (max-width: 364px) {
-
-    .logo{
-        font-size: 12px;
+    .bottom-form, .hero-form{
+        padding: 30px 20px;
+        border-radius: 15px;
     }
-    .tel{
-        font-size: 12px;}
 }
