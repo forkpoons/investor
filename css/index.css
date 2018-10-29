@@ -86,22 +86,21 @@ input{
 }
 .head{
     background: #FC9700;
-    height: 80px;
+    height: 100px;
 }
 .logo{
     font-size: 22px;
     font-family: "Roboto Condensed", sans-serif;
     display: inline-flex;
-    margin-top:30px;
+    margin-top:32px;
 }
 .tel{
     font-size: 22px;
     font-family: "Roboto Condensed", sans-serif;
-    margin-top: 30px;
+    margin-top: 14px;
 }
-.tel img{
-    width:30px;
-    height: 30px;
+.tel-img{
+    margin-right: 5px;
 }
 
 .hero{
@@ -196,6 +195,9 @@ input{
     .hero{
         text-align: center;
     }
+    .tel{
+        font-size: 18px;
+    }
 }
 @media (max-width: 767px) {
     .image-a{
@@ -208,6 +210,9 @@ input{
         margin-top: 50px;
     }
 
+    .tel{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -224,11 +229,11 @@ input{
         font-size: 16px;
         margin-top: 30px;
     }
-    .tel img{
-        display: none;
-    }
     .bottom-form, .hero-form{
         padding: 30px 20px;
         border-radius: 15px;
+    }
+    .tel .qwe{
+        display: none;
     }
 }
