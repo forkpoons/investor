@@ -37,7 +37,8 @@
                 <div class="col-md-6 col-lg-5 col-xl-4">
                     <div class="col hero-form">
                         <div class="text-h3">Заполните заявку</div>
-                        <form id="hero">
+                        <form id="hero" action="./send.php" method="post" >
+							<input type="hidden" name="hidden" value="true">
                             <input type="text" placeholder="Имя" class="form-control btn-h mt-30" name="name" form="hero">
                             <input type="tel" placeholder="Телефон" class="form-control btn-h mt-30" name="phone" form="hero">
                             <div class="custom-control custom-checkbox mt-4 text-left  mt-30">
@@ -132,8 +133,9 @@
     <!-- Оформите заем прямо сейчас -->
     <div class="container-fluid hero3 text-center py-120">
         <div class="text-h2 color-white">Оформите заем прямо сейчас</div>
-        <form class="bottom-form" id="form2">
+        <form class="bottom-form" id="form2" action="./send.php" method="post" >
             <div class="text-h3">Заполните заявку</div>
+			<input type="hidden" name="hidden" value="true">
             <input type="text" placeholder="Имя" class="form-control btn-h mt-30" name="name" form="form2">
             <input type="tel" placeholder="Телефон" class="form-control btn-h mt-30" name="phone" form="form2">
 
@@ -143,7 +145,7 @@
                     <option value="2">ПТС</option>
                     <option value="3">Недвижимость</option>
                 </select>
-
+		
             <input type="number" placeholder="Сумма займа" class="form-control btn-h mt-30" name="number" form="form2">
             <div class="custom-control custom-checkbox mt-4 text-left  mt-30">
                 <input type="checkbox" class="custom-control-input" id="Check2" name="check" form="form2">
